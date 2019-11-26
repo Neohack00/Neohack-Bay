@@ -10,6 +10,6 @@ app.get('/' , function(req, res){
     console.log('index has been loaded');
 })
 
-var server = app.listen(1337, function(){
+var server = app.listen(process.env.PORT, function(){
     console.log('Server is up and running at port: ' + server.address().port);
 })
