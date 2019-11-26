@@ -10,6 +10,6 @@ app.get('/' , function(req, res){
     
 })
 
-var server = app.listen(process.env.PORT, function(){
+var server = app.listen(1337, function(){
     console.log('Server is up and running at port: ' + server.address().port);
 })
