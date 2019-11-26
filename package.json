@@ -1,0 +1,25 @@
+{
+  "name": "neohack_bay",
+  "version": "1.0.0",
+  "description": "The Offial Neohack Bay",
+  "main": "Server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neohack00/Neohack-Bay.git"
+  },
+  "author": "Neo Hack",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neohack00/Neohack-Bay/issues"
+  },
+  "homepage": "https://github.com/Neohack00/Neohack-Bay#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^13.1.0",
+    "nodemon": "^2.0.1"
+  }
+}
