@@ -7,7 +7,7 @@ app.use(express.static('public/Webb/html'));
 
 app.get('/' , function(req, res){
     res.sendfile('public/Webb/html/index.html');
-    console.log('index has been loaded');
+    
 })
 
 var server = app.listen(process.env.PORT, function(){
