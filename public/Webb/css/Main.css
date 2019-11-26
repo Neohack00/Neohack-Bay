@@ -1,0 +1,17 @@
+.testHead{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+
+}
+#hub{
+    color: orange;
+}
+#load{
+    color: greenyellow;
+    background-color: white;
+    font-size: 90;
+}
+Body{
+    background: gray;
+}
